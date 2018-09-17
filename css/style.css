@@ -74,4 +74,5 @@ figure{margin:0}
 #portfolioModal .prev{left:1%}
 @media (max-width: 400px){
     .card-square{width:120px;height:120px}
+    #portfolioModal .desc-work{height:initial}
 }
