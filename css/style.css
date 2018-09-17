@@ -16,13 +16,11 @@ h2.content-title{font-size:4.25rem}
 hr.line-head{border-top:3px solid #ffb201;width:70px;margin:0 auto 25px}
 .mr-0{margin:0}
 .mr-top-0{margin-top:0}
-
 .number-work{margin-top:2%}
 .wrap-numb{margin-bottom:3rem}
 .number-work .wrap-numb .big-num{width:130px;height:130px;margin:auto;color:#ffcc46}
 .big-num{text-align:center;background:rgba(96, 76, 141, 1);font-size:88px;font-weight:700;border-radius:5px}
 .number-work .wrap-numb .title{font-size:24px;font-weight:600;line-height:1.2;text-align:center}
-
 .card-circle{width:100px;height:100px;float:left;position:relative;background-image:-webkit-gradient(linear,left top,left bottom,from(#fff),to(#f5f5fa));background-image:linear-gradient(#fff, #f5f5fa);-webkit-box-shadow:0 5px 15px 0 rgba(37,44,97,0.15), 0 2px 4px 0 rgba(93,100,148,0.2);box-shadow:0 5px 15px 0 rgba(37,44,97,0.15), 0 2px 4px 0 rgba(93,100,148,0.2);padding:1.1rem;margin:0.5rem 1rem 1rem}
 .wrap-skill-logo{margin:2rem 0;}
 .card-square{display:table;width:150px;height:150px;float:left;position:relative;background:rgba(255, 255, 255,1);
@@ -38,7 +36,6 @@ hr.line-head{border-top:3px solid #ffb201;width:70px;margin:0 auto 25px}
 .tooltip:hover .tooltiptext{visibility:visible;opacity:1}
 .wrap-adress{text-align:center;margin-bottom:1rem}
 .wrap-adress a{text-decoration:inherit}
-
 #BtnWrapPortfolio{margin:5px 15px;text-align:center}
 BtnWrapPortfolio button.active{background-color:#5468ff;color:#fff}
 #BtnWrapPortfolio button{margin:5px 15px}
@@ -75,3 +72,6 @@ figure{margin:0}
 .prev,.next{color:initial;cursor:pointer;position:fixed;top:50%;width:60px;padding:16px;margin-top:-22px;font-weight: bold;font-size: 18px;transition: 0.6s ease;border-radius: 50%;background:rgba(255, 255, 255, 0.38);box-shadow:0 10px 40px 0 rgba(62,57,107,0.2), 0 2px 9px 0 rgba(62,57,107,0.2);text-align:center}
 .prev:hover,.next:hover{background-color:rgb(255, 255, 255)}
 #portfolioModal .prev{left:1%}
+@media (max-width: 400px){
+    .card-square{width:120px;height:120px}
+}
